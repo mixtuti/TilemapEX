@@ -1,0 +1,16 @@
+{
+    "name": "TilemapEXEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:625e792025cbf40418db33e270347749"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
