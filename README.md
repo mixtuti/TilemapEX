@@ -27,3 +27,23 @@ https://github.com/mixtuti/TilemapEX.git?path=TilemapEX
 リリースから最新のUnity Packageをダウンロードし、インポートします。
 > [!TIP]
 > 更新が遅くなることが多いので1の方法を使うことをお勧めします。
+
+### 2. 利用方法
+まず、右クリック < Create < Tilemap < Settingsの順番でタイルマップセッティングを作成する。
+
+![代替テキスト](Image/TileMap2.png)
+
+上の方のデフォルトはなくてもOK(というか後ほど消す予定です。)<br>
+タイルルールの方に何もTrueにしないデフォルトを準備しておいてください。<br>
+一番下のAllow Diagonal Checkは斜め方向を許容するかどうかです。上下左右しか確認しないというモードですが、少しめんどくさいです。
+
+![代替テキスト](Image/TileMap.png)
+
+↑はチェックする向きを視覚的に表したものです。緑の丸が隣接を表しています。<br>
+この丸をチェックすることでも選択可能ですのでやりやすい方で操作してください。<br>
+<br>
+設定が終わったら、Tilemapコンポーネントがついているオブジェクトに、`` TilemapAutoUpdater.cs `` 若しくは`` TilemapManualUpdater.cs ``をアタッチしてください。<br>
+<br>
+Autoの方は、自動的に変換されていきます。manualの方は`` Auto Change Tiles ``というボタンを押すと変換されます。<br>
+<br>
+ちなみにルールは上の方から順番に適応されます。
